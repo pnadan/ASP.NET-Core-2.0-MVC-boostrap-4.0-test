@@ -1,0 +1,235 @@
+﻿// Configure bundling and minification for the project.
+// More info at https://go.microsoft.com/fwlink/?LinkId=808241
+[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/css/site.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/site.min.js",
+    "inputFiles": [
+      "wwwroot/js/site.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/js/contactform.min.js",
+    "inputFiles": [
+      "wwwroot/js/contactform.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/js/main.min.js",
+    "inputFiles": [
+      "wwwroot/js/main.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/contactform/contactform.min.js",
+    "inputFiles": [
+      "wwwroot/contactform/contactform.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/lib/jquery.easing/jquery.easing.min.js",
+    "inputFiles": [
+      "wwwroot/lib/jquery.easing/jquery.easing.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/lib/superfish/dist/js/hoverIntent.min.js",
+    "inputFiles": [
+      "wwwroot/lib/superfish/dist/js/hoverIntent.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/lib/superfish/dist/js/superfish.min.js",
+    "inputFiles": [
+      "wwwroot/lib/superfish/dist/js/superfish.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/lib/wow/dist/wow.min.js",
+    "inputFiles": [
+      "wwwroot/lib/wow/dist/wow.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "/lib/waypoints/lib/jquery.waypoints.min.js",
+    "inputFiles": [
+      "wwwroot/lib/waypoints/lib/jquery.waypoints.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/js/counterup.min.js",
+    "inputFiles": [
+      "wwwroot/js/counterup.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/lib/owl.carousel/dist/owl.carousel.min.js",
+    "inputFiles": [
+      "wwwroot/lib/owl.carousel/dist/owl.carousel.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/lib/isotope-layout/dist/isotope.pkgd.min.js",
+    "inputFiles": [
+      "wwwroot/lib/isotope-layout/dist/isotope.pkgd.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/lib/lightbox2/dist/js/lightbox.min.js",
+    "inputFiles": [
+      "wwwroot/lib/lightbox2/dist/js/lightbox.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/lib/jquery-touchswipe/jquery.touchSwipe.min.js",
+    "inputFiles": [
+      "wwwroot/lib/jquery-touchswipe/jquery.touchSwipe.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/css/style.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/css/style.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/font-awesome/css/font-awesome.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/lib/font-awesome/css/font-awesome.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/animate.css/animate.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/css/animate.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/Ionicons/css/ionicons.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/css/ionicons.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/owl.carousel/dist/assets/owl.carousel.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/lib/owl.carousel/dist/assets/owl.carousel.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/lightbox2/dist/css/lightbox.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/lib/lightbox2/dist/css/lightbox.css"
+    ]
+  }
+]
